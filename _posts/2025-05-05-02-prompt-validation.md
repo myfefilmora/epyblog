@@ -36,21 +36,18 @@ The 7-day rule existed — but in the **general section**, not the electronics s
   </div>
 </div> -->
 
+{% capture mycard %}
 
-<div style="background: linear-gradient(135deg, #e9e3ff, #f5f2ff); padding: 1.5rem 1.75rem; margin: 3rem 0; border-radius: 12px; box-shadow: 0 2px 12px rgba(102, 16, 242, 0.1);">
-  <h3 style="margin-top: 0; margin-bottom: 0.75rem; color: #4b0fde; font-size: 1.25rem;">
-    Special Mention
-  </h3>
-  <p style="margin: 0 0 1.5rem; font-size: 1rem; color: #333;">
-    Want to apply what you're learning here? Our <strong>PINNs Masterclass</strong> takes you from theory to working code with step-by-step walkthroughs.
-  </p>
-  <div style="text-align: right;">
-    <a href="https://www.elastropy.com/products/pinns-masterclass" target="_blank"
-       style="background-color: #4b0fde; color: #fff; padding: 0.65rem 1.25rem; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 0.95rem; box-shadow: 0 2px 6px rgba(75, 15, 222, 0.2); transition: all 0.2s ease;">
-      Enroll Now →
-    </a>
-  </div>
-</div>
+Want to apply what you're learning here? Our **PINNs Masterclass** takes you from theory to working code with step-by-step walkthroughs.
+
+{% endcapture %}
+
+{% include promo-card-md.html
+   heading="Go Beyond Just Watching"
+   body=mycard
+   button_link="https://exly.co/PvxFUL"
+   button_text="Enroll Now →"
+%}
 
 <!-- <div style="background: linear-gradient(135deg, #e0fcf4, #f3fffd); padding: 1.5rem 1.75rem; margin: 3rem 0; border-radius: 12px; box-shadow: 0 2px 12px rgba(32, 201, 151, 0.1);">
   <h3 style="margin-top: 0; margin-bottom: 0.75rem; color: #1e9e84; font-size: 1.25rem;">

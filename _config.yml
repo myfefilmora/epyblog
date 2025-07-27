@@ -39,13 +39,10 @@ exclude: [
   Gemfile, 
   Gemfile.lock, 
   tale.gemspec, 
-  rotate-netlify.sh, 
   README.md, 
   .gitignore, 
   LICENSE, 
-  generated-links.md,
   .github/,
-  original-tale-posts-ref/
   ]
 
 # Disqus (Set to your disqus id)
