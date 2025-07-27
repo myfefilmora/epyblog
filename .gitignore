@@ -1,7 +1,19 @@
+# Ignore Ruby artifacts
 *.gem
 .bundle
+/vendor/bundle/
+
+# OS junk
 .DS_Store
-.sass-cache
+
+# Jekyll build output
 _site
-Gemfile.lock
 .jekyll-cache
+.sass-cache
+
+# Dependency lockfile (optional)
+Gemfile.lock   # ← Keep this if deploying to GitHub Pages or CI
+
+# VS Code and Codespaces
+.vscode/
+.devcontainer/

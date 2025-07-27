@@ -1,44 +1,29 @@
 #!/bin/bash
 set -e
 
-echo "📦 Installing system dependencies..."
+echo "📦 Step 1: Install system dependencies..."
 sudo apt-get update -y
 sudo apt-get install -y build-essential zlib1g-dev libffi-dev libyaml-dev ruby-full
 
-echo "📌 Setting Ruby version to 3.2.2 (recommended)..."
-echo "3.2.2" > .ruby-version
+echo "📁 Step 2: Configure bundler to install locally (portable)..."
+bundle config set --local path 'vendor/bundle'
 
-echo "🧼 Cleaning old gems (if any)..."
-rm -rf vendor .bundle Gemfile.lock
+echo "🧩 Step 3: Install missing Ruby standard gems removed in 3.4+..."
+cat >> Gemfile <<EOF
 
-echo "🪄 Initializing Gemfile..."
-cat <<EOF > Gemfile
-source "https://rubygems.org"
-
-ruby "3.2.2"
-
-gem "jekyll", "~> 4.3.2"
-gem "bundler", "~> 2.4"
+# Extra gems needed for Ruby 3.4+ compatibility
 gem "bigdecimal"
 gem "logger"
-gem "jekyll-seo-tag"
-gem "jekyll-feed"
-gem "jekyll-paginate"
-gem "webrick"
+gem "csv"
+gem "base64"
 EOF
 
-echo "📥 Installing gems locally..."
-bundle config set --local path 'vendor/bundle'
+echo "📥 Step 4: Install all Gemfile dependencies..."
 bundle install
 
-echo "🆕 Creating new Jekyll site in 'site/'..."
-jekyll new site --force --skip-bundle
-cd site
-
-echo "📎 Using local Gemfile and installing site deps..."
-bundle install
-
-echo "✅ Setup complete!"
-echo "👉 Run your server with:"
-echo "   cd site"
+echo "🚀 Setup complete!"
+echo ""
+echo "👉 Run your server using:"
 echo "   bundle exec jekyll serve --host=0.0.0.0"
+echo ""
+echo "🌐 Then open port 4000 in GitHub Codespace"
