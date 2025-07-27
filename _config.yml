@@ -1,8 +1,8 @@
 # Site settings
 title:          Elastropy Blog
 description:    "Turning data into compelling stories"
-baseurl:        ""
-url:            ""
+baseurl:        "/epyblog"
+url:            "https://myfefilmora.github.io"
 
 # Google Analytics
 # google_analytics: UA—XXXXXXXX-X
