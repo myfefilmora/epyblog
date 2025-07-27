@@ -5,7 +5,8 @@ title: "LLMs Don’t Break Loudly — They Drift Silently: <em>Why Prompt Valida
 tags:
   - LLMs
 usemathjax:     true
-more_updates_card: true
+more_updates_card: false
+yt_community_link: https://youtube.com/post/xyz123abc
 excerpt_separator: <!--more-->
 ---
 
@@ -21,6 +22,97 @@ Except the policy said 14 days. <!--more-->
 
 This wasn’t a hallucination in the usual sense. It wasn’t made up out of thin air.
 The 7-day rule existed — but in the **general section**, not the electronics subsection. GPT mixed them up.
+
+<!-- <div style="background-color: #f5f0ff; border: 2px solid #6610f2; padding: 1.25rem; margin: 2.5rem 0; border-radius: 6px;">
+  <h3 style="margin-top: 0; color: #6610f2;">📣 Special Mention</h3>
+  <p style="margin: 0.5rem 0 1.25rem;">
+    Want to apply what you're learning here? Our <strong>PINNs Masterclass</strong> takes you from theory to working code with step-by-step walkthroughs.
+  </p>
+  <div style="text-align: right;">
+    <a href="https://www.elastropy.com/products/pinns-masterclass" target="_blank"
+       style="background-color: #6610f2; color: white; padding: 0.6rem 1.1rem; border-radius: 4px; text-decoration: none; font-weight: 600; display: inline-block;">
+      🚀 Enroll Now
+    </a>
+  </div>
+</div> -->
+
+
+<div style="background: linear-gradient(135deg, #e9e3ff, #f5f2ff); padding: 1.5rem 1.75rem; margin: 3rem 0; border-radius: 12px; box-shadow: 0 2px 12px rgba(102, 16, 242, 0.1);">
+  <h3 style="margin-top: 0; margin-bottom: 0.75rem; color: #4b0fde; font-size: 1.25rem;">
+    Special Mention
+  </h3>
+  <p style="margin: 0 0 1.5rem; font-size: 1rem; color: #333;">
+    Want to apply what you're learning here? Our <strong>PINNs Masterclass</strong> takes you from theory to working code with step-by-step walkthroughs.
+  </p>
+  <div style="text-align: right;">
+    <a href="https://www.elastropy.com/products/pinns-masterclass" target="_blank"
+       style="background-color: #4b0fde; color: #fff; padding: 0.65rem 1.25rem; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 0.95rem; box-shadow: 0 2px 6px rgba(75, 15, 222, 0.2); transition: all 0.2s ease;">
+      Enroll Now →
+    </a>
+  </div>
+</div>
+
+<!-- <div style="background: linear-gradient(135deg, #e0fcf4, #f3fffd); padding: 1.5rem 1.75rem; margin: 3rem 0; border-radius: 12px; box-shadow: 0 2px 12px rgba(32, 201, 151, 0.1);">
+  <h3 style="margin-top: 0; margin-bottom: 0.75rem; color: #1e9e84; font-size: 1.25rem;">
+    Special Mention
+  </h3>
+  <p style="margin: 0 0 1.5rem; font-size: 1rem; color: #2e2e2e;">
+    Want to apply what you're learning here? Our <strong>PINNs Masterclass</strong> takes you from theory to working code with step-by-step walkthroughs.
+  </p>
+  <div style="text-align: right;">
+    <a href="https://www.elastropy.com/products/pinns-masterclass" target="_blank"
+       style="background-color: #1e9e84; color: #fff; padding: 0.65rem 1.25rem; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 0.95rem; box-shadow: 0 2px 6px rgba(32, 201, 151, 0.2); transition: all 0.2s ease;">
+      Enroll Now →
+    </a>
+  </div>
+</div> -->
+
+<!-- <div style="background: linear-gradient(135deg, #fffbe6, #fff8dd); padding: 1.5rem 1.75rem; margin: 3rem 0; border-radius: 12px; box-shadow: 0 2px 12px rgba(255, 193, 7, 0.1);">
+  <h3 style="margin-top: 0; margin-bottom: 0.75rem; color: #e5a100; font-size: 1.25rem;">
+    Special Mention
+  </h3>
+  <p style="margin: 0 0 1.5rem; font-size: 1rem; color: #2e2e2e;">
+    Want to apply what you're learning here? Our <strong>PINNs Masterclass</strong> takes you from theory to working code with step-by-step walkthroughs.
+  </p>
+  <div style="text-align: right;">
+    <a href="https://www.elastropy.com/products/pinns-masterclass" target="_blank"
+       style="background-color: #e5a100; color: #fff; padding: 0.65rem 1.25rem; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 0.95rem; box-shadow: 0 2px 6px rgba(255, 193, 7, 0.2); transition: all 0.2s ease;">
+      Enroll Now →
+    </a>
+  </div>
+</div> -->
+
+<!-- <div style="background: linear-gradient(135deg, #f4f6f8, #e9ebee); padding: 1.5rem 1.75rem; margin: 3rem 0; border-radius: 12px; box-shadow: 0 2px 12px rgba(108, 117, 125, 0.08);">
+  <h3 style="margin-top: 0; margin-bottom: 0.75rem; color: #343a40; font-size: 1.25rem;">
+    Special Mention
+  </h3>
+  <p style="margin: 0 0 1.5rem; font-size: 1rem; color: #333;">
+    Want to apply what you're learning here? Our <strong>PINNs Masterclass</strong> takes you from theory to working code with step-by-step walkthroughs.
+  </p>
+  <div style="text-align: right;">
+    <a href="https://www.elastropy.com/products/pinns-masterclass" target="_blank"
+       style="background-color: #343a40; color: #fff; padding: 0.65rem 1.25rem; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 0.95rem; box-shadow: 0 2px 6px rgba(52, 58, 64, 0.2); transition: all 0.2s ease;">
+      Enroll Now →
+    </a>
+  </div>
+</div> -->
+
+
+
+<!-- <div style="background-color: #fff0f5; border: 2px solid #d63384; padding: 1.25rem; margin: 2.5rem 0; border-radius: 6px;">
+  <h3 style="margin-top: 0; color: #d63384;">📣 Special Mention</h3>
+  <p style="margin: 0.5rem 0 1.25rem;">
+    Want to apply what you're learning here? Our <strong>PINNs Masterclass</strong> takes you from theory to working code with step-by-step walkthroughs.
+  </p>
+  <div style="text-align: right;">
+    <a href="https://www.elastropy.com/products/pinns-masterclass" target="_blank"
+       style="background-color: #d63384; color: white; padding: 0.6rem 1.1rem; border-radius: 4px; text-decoration: none; font-weight: 600; display: inline-block;">
+      🚀 Enroll Now
+    </a>
+  </div>
+</div> -->
+
+
 
 The prompt hadn’t changed.
 The retrieval context hadn’t changed.

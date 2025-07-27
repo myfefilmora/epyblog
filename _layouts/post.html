@@ -47,6 +47,53 @@ layout: default
   {% include disqus_comments.html %}
 {% endif %}
 
+{% if page.yt_community_link %}
+<link href="{{ "/assets/css4.1/bootstrapcustom.min.css" | relative_url }}" rel="stylesheet" crossorigin="anonymous">
+
+<style>
+  .discussion-card .btn-discuss {
+    background-color: #d63384; /* Bootstrap 'pink' */
+    color: white;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+
+  .discussion-card .btn-discuss:hover {
+    background-color: #f8d7e5;
+    color: #d63384;
+    border: 1px solid #d63384;
+  }
+
+  .discussion-card .card-header {
+    background-color: #d63384;
+    font-weight: bold;
+    font-size: 1.15rem;
+  }
+</style>
+
+<div class="bootstrapiso discussion-card" style="margin-top: 2rem; margin-bottom: 2rem;">
+  <div class="card border-pink">
+    <div class="card-header text-white">
+      Join the Discussion
+    </div>
+    <div class="card-body">
+      <p class="card-text">
+        We’ve opened a dedicated conversation for this post on our <strong>YouTube Community</strong> page.  
+        Share your thoughts, ask questions, or explore what others are saying:
+      </p>
+      <div class="d-block d-sm-flex justify-content-end">
+        <a href="{{ page.yt_community_link }}" class="btn btn-discuss">
+          View Community Post
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
+
+
+
+
 <div class="pagination">
   {% if page.next.url %}
     <a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow">&#8592;</a>
